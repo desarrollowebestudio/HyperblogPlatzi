@@ -1,5 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
-  text-align: center;
-  color: deeppink;
+  color: hsl(0, 0%, 20%);
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+div#areaActiva {
+  margin: 10px auto;
+  width: 70%;
+  padding: 1em;
+  text-align: left;
+  border: 1px solid hsl(0, 0%, 85%);
 }
