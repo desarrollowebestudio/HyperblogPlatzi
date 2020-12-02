@@ -1,3 +1,7 @@
+html {
+  --colorPrimario: hsl(240, 50%, 35%);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -31,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: hsl(240, 50%, 35%);
+  background-color: var(--colorPrimario);
   padding: 0.75em;
   color: white;
   background-image: url('/imagenes/spacex.png');
@@ -75,7 +79,7 @@ a:visited {
 }
 
 footer {
-  background-color: hsl(240, 10%, 30%);
+  background-color: var(--colorPrimario);
   padding: 0.375rem 0px;
   font-size: 0.875rem;
   color: white;
